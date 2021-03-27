@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: duckman.ml
+Token: 03ea864bdb5573d2a6769aa50e5239ce9b4a7e5c676c32894f41c1f9dd01c7c3
