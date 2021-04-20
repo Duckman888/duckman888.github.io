@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cutmonkey game - DUCKMAN</title>
+	<link rel = "icon" href =  
+"https://image.flaticon.com/icons/png/512/194/194633.png" 
+        type = "image/x-icon"> 
+	<script data-ad-client="ca-pub-6564767971760293" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+		 <div class="container" onclick="openNav(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div> 
+	 <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://duckman.ml/">Homepage</a>
+  <a href="https://duckman.ml/about">About</a>
+  <a href="https://duckman.ml/cutmonkey/">Cutmonkey</a>
+  <a href="https://duckman.ml/contact/">Contact</a>
+</div>
+<div id="main">
+</div> 
+<style>
+	.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.sidenav {
+  height: 100%;
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s; 
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.container {
+	float: left;
+	}
+</style>
+<script>
+	function myFunction(x) {
+  x.classList.toggle("change");
+} 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+} 
+</script>
+<h1>Cutmonkey</h1>
+<p>Welcome to Duckman.ml! This is the page for the game CutMonkey. It was created using Scratch programming, and converted to Javascript via software called leopard. To start the game, press the monkey. To cut the monkeys, hold your cursor over them. To gain points, cut the monkeys, but beware! if you cut the ducks, your health goes down to zero! If you don't cut a monkey, you also lose a point.</p>
+<iframe src="https://ionod.csb.app/" height="400" width="500" title="The CUTMONKEY game!"></iframe>
+<style>
+	h1 {
+	text-align: center;
+	font-size: 100px;
+	}
+	p {
+		font-size: 24px;
+	}
+	* {
+		font-family: verdana, arial, sans-serif;
+		background-color: lightgray;
+	}
+</style>
+</body>
+</html>
