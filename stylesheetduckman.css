@@ -1,8 +1,9 @@
 
-	* {
-			font-family: verdana, arial, sans-serif;
-			background-color: lightgray;
-	}
+* {
+	font-family: verdana, arial, sans-serif;
+	background-color: black;
+	color: white;
+}
 .container {
   display: inline-block;
   cursor: pointer;
